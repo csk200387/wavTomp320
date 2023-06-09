@@ -14,4 +14,6 @@ for process in processes:
 for file in os.listdir():
     if file.endswith('.wav'):
         os.remove(file)
+
+print('All wav files have been converted to mp3! and deleted all wav files')
 input('Press ENTER to exit')
